@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/normalize.css">
+    <title>Comments</title>
+</head>
+<body>
+    <div class="container">
+        <p class="title"><b>Оставьте ваш комментарий</b></p>
+        <label for="showNameCheckbox">
+            <input type="checkbox" id="showNameCheckbox" checked> Показывать имя
+        </label>
+        <p id="name">Введите ваше <b>Имя</b></p>
+        <input type="text" id="userName" placeholder="Ваше имя">
+        <p id="avatar">Введите ссылку <b>вашего аватара</b></p>
+        <input type="url" id="userAvatar" placeholder="Ссылка на аватар">
+        <p id="comment">Оставьте ваш комментарий</p>
+        <textarea class="user_comment" placeholder="Ваш комментарий" rows="5" cols="50"></textarea>
+        <button id="submitСomment">Отправить</button>
+        <p id="chat">Чат</p>
+        <div id="chatContainer" class="messages">
+        </div>
+    </div>
+    <script src="assets/script/index.js"></script>
+</body>
+</html>

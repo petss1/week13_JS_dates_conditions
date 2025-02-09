@@ -1,0 +1,13 @@
+.container{
+    text-align: center;
+    font-size: 5vw;
+    color:brown;
+}
+
+#errorMessage{
+    color: blueviolet;
+}
+
+.btn{
+    margin-top: 2vw;
+}
